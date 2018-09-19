@@ -3,8 +3,7 @@ def reverse_each_word(phrase)
   reversed = []
   separate.each do |word|
     back = word.split("").reverse
-    back.join(" ")
-    reversed <<
+    reversed << back.join(" ")
   end
   reversed
 end
