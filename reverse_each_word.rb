@@ -4,5 +4,5 @@ def reverse_each_word(phrase)
     back = word.split("").reverse
     back.join
   end
-  back.join(" ")
+  separate.join(" ")
 end
